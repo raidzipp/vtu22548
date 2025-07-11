@@ -1,0 +1,137 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(145deg, #f0f4ff, #e4ecf7);
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .wrapper {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+    color: #3f37c9;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .nav-btn {
+    text-decoration: none;
+    color: white;
+    background: #4361ee;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .nav-btn:hover {
+    background: #3f37c9;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.05);
+    backdrop-filter: blur(6px);
+    animation: fadeIn 0.4s ease;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  button {
+    background: #4895ef;
+    color: white;
+    padding: 12px;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #4361ee;
+  }
+  
+  .copy-btn {
+    margin-top: 10px;
+    background: #e6e9ff;
+    color: #333;
+  }
+  
+  .result {
+    margin-top: 20px;
+    background: #f0f4ff;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    animation: fadeInUp 0.4s ease;
+  }
+  
+  .result a {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #3f37c9;
+  }
+  
+  .error {
+    color: #f72585;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+  }
+  
+  .redirecting {
+    text-align: center;
+    padding: 100px;
+    font-size: 20px;
+    color: #3f37c9;
+  }
+  
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
